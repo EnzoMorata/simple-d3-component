@@ -12,9 +12,9 @@ You can install the package via `Yarn` or `NPM`:
 
 ```bash 
 yarn add simple-d3-component
+```
 
-# or
-
+```bash
 npm install simple-d3-component 
 ```
 
@@ -81,5 +81,5 @@ function App() {
     )
 }
 
-export default App
+export default App;
 ```
