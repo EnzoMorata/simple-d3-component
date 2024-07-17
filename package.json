@@ -1,12 +1,22 @@
 {
   "name": "simple-d3-component",
   "version": "0.1.0",
-  "description": "An open-source package designed to simplify the creation of D3 components in React. This package leverages TypeScript's object-oriented programming (OOP) capabilities to inherit basic behaviors of a base component oriented to compatibility with standard D3 usage.",
+  "keywords": ["d3", "react", "typescript", "component", "visualization"],
+  "description": "An open-source package designed to simplify the creation of D3 components in React.",
   "main": "src/index.ts",
   "files": ["src/**/*"],
-  "author": "Enzo Morata",
+  "author": {
+    "name": "Enzo Morata",
+    "email": "enzomorata.dev@gmail.com",
+    "url": "https://enzomorata.github.io/"
+  },
   "license": "MIT",
   "private": false,
+  "homepage": "https://github.com/EnzoMorata/simple-d3-component",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EnzoMorata/simple-d3-component"
+  },
   "dependencies": {
     "d3": "^7.9.0",
     "react": "^18.3.1"
